@@ -27,16 +27,13 @@ export default function Hero() {
         </div>
         <div className="mx-auto max-w-3xl py-32 sm:py-48 lg:py-24">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div className="relative rounded-full px-3 py-1 text-sm/6 text-white ring-1 ring-white/10 hover:ring-white/20">
+            {/* <div className="relative rounded-full px-3 py-1 text-sm/6 text-white ring-1 ring-white/10 hover:ring-white/20">
               Advanced Research in Ghana{" "}
-              {/* <a href="#" className="font-semibold text-indigo-400">
-                <span aria-hidden="true" className="absolute inset-0" />
-                Read more <span aria-hidden="true">&rarr;</span>
-              </a> */}
-            </div>
+              
+            </div> */}
           </div>
           <div className="text-center">
-            <h1 className="text-5xl font-bold  sm:text-8xl bg-[linear-gradient(180deg,#ffffff_0%,#ffffff_50%,#680000_100%)] bg-clip-text text-transparent">
+            <h1 className="text-5xl font-bold sm:text-8xl text-gray-300">
               Ghana Computational Biosciences Network
             </h1>
             <p className="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">
@@ -50,9 +47,9 @@ export default function Hero() {
               >
                 About Us
               </Link>
-              <a href="#" className="text-sm/6 font-semibold text-white">
+              <Link to="/join" className="text-sm/6 font-semibold text-white">
                 Join Us <span aria-hidden="true">→</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

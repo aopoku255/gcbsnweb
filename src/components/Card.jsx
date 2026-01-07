@@ -1,4 +1,6 @@
-export default function WorkingGroupsCard({ title, description, icon }) {
+import { Link } from "react-router-dom";
+
+export default function WorkingGroupsCard({ title, description, icon, link }) {
   return (
     <div
       className="group relative overflow-hidden rounded-2xl 
@@ -30,9 +32,9 @@ export default function WorkingGroupsCard({ title, description, icon }) {
         transition-all duration-300 ease-out
         group-hover:opacity-100 group-hover:translate-y-0"
       >
-        <a href="#" className="text-sm font-medium text-white">
+        <Link to={link} className="text-sm font-medium text-white">
           Explore →
-        </a>
+        </Link>
       </div>
     </div>
   );

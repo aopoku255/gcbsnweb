@@ -19,19 +19,6 @@ const About = () => {
             <h2 className="text-5xl sm:text-6xl font-bold tracking-tight text-[#262626]">
               About GCBN
             </h2>
-            <p className="mt-6 text-lg sm:text-xl text-[#262626] leading-relaxed">
-              The GCBN seeks to contribute to the growth and advancement of
-              computational biosciences in Ghana through an open peer-led
-              community where stakeholders (students, researchers, etc.) can
-              collaborate on capacity building and career opportunities geared
-              towards their continuous professional development.
-            </p>
-            <Link
-              to="/contact"
-              className="mt-8 inline-block bg-[#680000] text-white font-medium px-6 py-3 rounded-lg shadow-lg hover:bg-[#680000] transition-colors duration-300"
-            >
-              Join the Community →
-            </Link>
           </div>
         </div>
       </div>

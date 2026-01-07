@@ -16,18 +16,21 @@ const features = [
     description:
       "The Ghana Computational Biosciences Network (GCBN) is committed to advancing the frontiers of computational...",
     icon: <MagnifyingGlassIcon className="h-6 w-6 text-white" />,
+    link: "/focus",
   },
   {
     name: "Community",
     description:
       "At the heart of GCBN is a vibrant, inclusive, and peer-led community committed to mutual growth and scientific...",
     icon: <GlobeAltIcon className="h-6 w-6 text-white" />,
+    link: "/community",
   },
   {
     name: "Workshops",
     description:
       "Workshops form the backbone of our commitment to building a strong and future-ready computational bioscience community...",
     icon: <UserGroupIcon className="h-6 w-6 text-white" />,
+    link: "/workshops",
   },
 ];
 
@@ -36,7 +39,7 @@ export default function Hero2() {
     <div className="bg-[#242222] py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty sm:text-6xl lg:text-balance bg-[linear-gradient(90deg,#ffffff_0%,#ffffff_50%,#680000_100%)] bg-clip-text text-transparent">
+          <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty sm:text-6xl text-gray-300">
             Advancing Computational Biosciences in Ghana
           </p>
         </div>
@@ -47,6 +50,7 @@ export default function Hero2() {
                 title={feature.name}
                 description={feature.description}
                 icon={feature.icon}
+                link={feature.link}
               />
             ))}
           </dl>

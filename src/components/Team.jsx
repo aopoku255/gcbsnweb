@@ -1,13 +1,13 @@
 import adomakoImage from "../assets/1.jpg";
 const people = [
   {
-    name: "Adomako Ansah Nana",
-    // role: "Co-Founder / CEO",
+    name: "Nana Ansah Adomako",
+    role: "Founder",
     imageUrl: adomakoImage,
   },
   {
     name: "Edward Ntim Gasu, PhD",
-    // role: "Co-Founder / CTO",
+    role: "Co-Founder",
     imageUrl:
       "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ8AAACUCAMAAAC6AgsRAAAAMFBMVEXk5ueutLfn6eqrsbS2u77h4+S7wMLIzM7FycvZ3N3W2du/xMayt7rN0dOorrHd4OGhaypWAAAEOElEQVR4nO2c2ZrDIAhGG9Qsbnn/tx1tp0vStFUB9SL/1bQ3cz4QRMFeLqdOnTp16tSpU6d6FkBrgmMFLLUu2gXpRanrF90ILosz0novorz3g5zd2gsirLMchBg2Cp/lvLYnhIuTfsf2YPRSq6aIAE5+gPu3onQtI0bbb3Q3RKsbAYIyP+mi/NzGyQnGu2tpADj5VLrg5Kk63phsvCugqWtB9TVsjwBlzWSYjRcBK/KlR8YroKqFl7f2HoBjHQvCXIQXAOcagOAyEssO0FXAW0rpolZ2PiUReMJye7h48f0DTsyAa/Hiu8kye9jg8Lg3Oo3EC9UWpwEhf197E2eWxq6+KLuw4cGIxwu7CBvfSoAXxFUngMOvviHuclwrkMK9QVyVoCIx38DlYEThshWTgyHtuJvAx7OHAA1dEE+lT5RdBqYiARwZn9AcfBMdH0edTxYeXAFSdqo85OOoYRTR7hHFcQxBHYx2Ep3z+ZPv5GvI13t8DJ3nP5YKuvP9DXkztOHjuCUirF88S/2i6ezHcoVAdnxjumQjO3+IkQMvLEAqAzJdomqi8+/A1BFWloiP6/6FJgOyXfEC/nY3yvNdUJKUCDzRG0USwaxNLgI+y9hmJTAgbwdpxacYRjoCA3K3WAFpQPYm/4LrX7JPcaDK6CodfkQPji81PwWIe17+9v4FsQ2LSpN2pY0Qtr7WG2BJjPhqeEWdQr6u4KFyASvjxSDJIBRcR44vgEt6Hqw7/HcHTD6OMHb0vxPqFBMK2WI69gao3H6u/Y1OuJYj5HCZ5GdEIeTU+sEFrHr0h/uJ8GNT2z0U3CztEJ9W3M0W/rKdwF0FoLSbzShtkJRmdlq1duxONxwV9fjUjeBIraGuupLEh0dTcO9dxsxTfIbUlDKsObXoyVgfJbZZ5vYMyQ+jccuqqrs72GVxZrwG7a/8LKw0U8VwCf9ndSaUJOn1i4i73Lwo/hddYa3pWf602iGkH4KzWc0IoI3Nqfv2iGKQbC9V4KKn4dNTshxGlo0FwI0Iy20JpaEmXKeSJfdZXmq6YIFlJjLdU8HNmihWVrrG75aQwoZA7dlX+RF7rANX8tQoWWIYMZGSdgDCEYqp1MnhAMkMdyMsPd9l3RBg5IvOx2Td3t8SY7YJC14IogjzApmoU5kDmHNzTvQQIA9wTI9jukmcHMDUSy7CQd08QJsGSDenm6uUp/TQDi+p/dXIuf+yPxJhq7X3BPxqQboRoVIJ+Q2vQd57A/zSQyTo3uP1eUCB7oEMSv5DliEc4MTpeDyQcD4SqQ8DWj0svpuOPNw+tbzoIMmgnuVT66AabL1xbPU2pIUbayHXPkSaVi1HElsDrp3h7VYgVDmJZ0m+JmnStx002ryB7GbreOr193aaV6VH8i/Lr0O8l4kUWKgG10n1eKTZ1db71GPUkuRnIRh0nzPvMLtEXRfgH05tO6fRK+g7AAAAAElFTkSuQmCC",
   },
